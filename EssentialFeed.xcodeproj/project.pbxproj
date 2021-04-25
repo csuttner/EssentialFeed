@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F32C6F35263530CD006EE968 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32C6F34263530CD006EE968 /* XCTestCase+MemoryLeakTracking.swift */; };
 		F3965ABC261A191F0012D49F /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3965AB2261A191F0012D49F /* EssentialFeed.framework */; };
 		F3965AC1261A191F0012D49F /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3965AC0261A191F0012D49F /* EssentialFeedTests.swift */; };
 		F3965ACF261A19340012D49F /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3965ACE261A19340012D49F /* FeedItem.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F32C6F34263530CD006EE968 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		F3965AB2261A191F0012D49F /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3965AB6261A191F0012D49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3965ABB261A191F0012D49F /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F32C6F33263530A1006EE968 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F32C6F34263530CD006EE968 /* XCTestCase+MemoryLeakTracking.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F3965AA8261A191F0012D49F = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +132,7 @@
 		F3966F2E2627FEDC007E9AB7 /* Feed API  */ = {
 			isa = PBXGroup;
 			children = (
+				F32C6F33263530A1006EE968 /* Helpers */,
 				F3965ADB261A1FE50012D49F /* RemoteFeedLoaderTests.swift */,
 				F3D1D385262E732A00C681FC /* URLSessionHTTPClientTests.swift */,
 			);
@@ -249,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3965ADC261A1FE50012D49F /* RemoteFeedLoaderTests.swift in Sources */,
+				F32C6F35263530CD006EE968 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				F3D1D386262E732A00C681FC /* URLSessionHTTPClientTests.swift in Sources */,
 				F3965AC1261A191F0012D49F /* EssentialFeedTests.swift in Sources */,
 			);
