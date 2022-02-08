@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F36C4A6427B238AC0052AABE /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C4A6327B238AC0052AABE /* FeedItem.swift */; };
+		F36C4A6627B239BD0052AABE /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C4A6527B239BD0052AABE /* FeedLoader.swift */; };
 		F3FBF49727B0DF8800BCEA6D /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FBF48C27B0DF8800BCEA6D /* EssentialFeed.framework */; };
 		F3FBF49C27B0DF8800BCEA6D /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FBF49B27B0DF8800BCEA6D /* EssentialFeedTests.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		F36C4A6327B238AC0052AABE /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		F36C4A6527B239BD0052AABE /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		F3FBF48C27B0DF8800BCEA6D /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FBF49627B0DF8800BCEA6D /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FBF49B27B0DF8800BCEA6D /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				F36C4A6327B238AC0052AABE /* FeedItem.swift */,
+				F36C4A6527B239BD0052AABE /* FeedLoader.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36C4A6627B239BD0052AABE /* FeedLoader.swift in Sources */,
 				F36C4A6427B238AC0052AABE /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
