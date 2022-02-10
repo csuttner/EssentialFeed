@@ -5,25 +5,8 @@
 //  Created by Clay Suttner on 2/8/22.
 //
 
+import EssentialFeed
 import XCTest
-
-class RemoteFeedLoader {
-    let url: URL
-    let client: HTTPClient
-    
-    init(url: URL, client: HTTPClient) {
-        self.url = url
-        self.client = client
-    }
-    
-    func load() {
-        client.get(from: url)
-    }
-}
-
-protocol HTTPClient {
-    func get(from url: URL)
-}
 
 class RemoteFeedLoaderTests: XCTestCase {
     
@@ -58,4 +41,5 @@ class RemoteFeedLoaderTests: XCTestCase {
             requestedURL = url
         }
     }
+    
 }
