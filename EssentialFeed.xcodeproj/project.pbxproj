@@ -32,6 +32,7 @@
 		F3E3D14227C18AE7001F9C4E /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E3D13027C16D03001F9C4E /* XCTestCase+MemoryLeakTracking.swift */; };
 		F3F670BA27E3FA8200AE033D /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F670B927E3FA8200AE033D /* CodableFeedStoreTests.swift */; };
 		F3FBF49727B0DF8800BCEA6D /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FBF48C27B0DF8800BCEA6D /* EssentialFeed.framework */; };
+		F3FC521527E4D5FE00841A1E /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC521427E4D5FE00841A1E /* CodableFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		F3F670B927E3FA8200AE033D /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
 		F3FBF48C27B0DF8800BCEA6D /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FBF49627B0DF8800BCEA6D /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FC521427E4D5FE00841A1E /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				F3A85A2427E177A0008911BE /* FeedStore.swift */,
 				F3A85A2827E18035008911BE /* LocalFeedImage.swift */,
 				F3308E5C27E3A640000E80C0 /* FeedCachePolicy.swift */,
+				F3FC521427E4D5FE00841A1E /* CodableFeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				F3A85A2927E18035008911BE /* LocalFeedImage.swift in Sources */,
 				F3A85A2527E177A0008911BE /* FeedStore.swift in Sources */,
 				F3A85A2327E17738008911BE /* LocalFeedLoader.swift in Sources */,
+				F3FC521527E4D5FE00841A1E /* CodableFeedStore.swift in Sources */,
 				F3E3D12927BDED07001F9C4E /* HTTPClient.swift in Sources */,
 				F36C4A6427B238AC0052AABE /* FeedImage.swift in Sources */,
 				F3E3D13327C180E3001F9C4E /* URLSessionHTTPClient.swift in Sources */,
